@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: My module
+author: Jonatan Lundin
+license: MIT
+copyright: 2014 Hyperlab AB
+
+
+# these should not be edited
+name: HyperWebView
+moduleid: se.hyperlab.webview
+guid: adf87448-4592-42a4-94e5-1ba472631612
+platform: iphone
+minsdk: 3.2.1.GA
