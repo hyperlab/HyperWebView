@@ -1,6 +1,6 @@
-# Better WebView module for iOS
+# A Better WebView Titanium
 
-Currently only does one thing: it augments the Ti.UI.WebView to set its scrolling friction to match other native ScrollViews.
+Currently only does one thing: it augments the Ti.UI.WebView on iOS to match its scrolling friction with other native ScrollViews.
 
 ## Using the module
 
@@ -8,24 +8,24 @@ Add the module to you project, import it and create new augmented WebViews accor
 
 **Classic example**:
 ```js
-  var HyperWebView = require('se.hyperlab.webview'),
-      webView = HyperWebView.createView({ args: '...' });
+var HyperWebView = require('se.hyperlab.webview'),
+    webView = HyperWebView.createView({ args: '...' });
 ```
 
 **Alloy example**:
 ```js
 // alloy.js
-  Alloy.Globals.HyperWebView = require('se.hyperlab.webview');
+Alloy.Globals.HyperWebView = require('se.hyperlab.webview');
 
 // View
-  <View url="http://www.google.com/" ns="Alloy.Globals.HyperWebView"></View>
+<View url="http://www.google.com/" ns="Alloy.Globals.HyperWebView"></View>
 ```
 
 ## Author 
 
-**Jonatan Lundin**
-Web: http://hyperlab.se
-Twitter: @mr_lundis
+**Jonatan Lundin**  
+Web: http://hyperlab.se  
+Twitter: @mr_lundis  
 
 ## License
 
