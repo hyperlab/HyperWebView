@@ -1,10 +1,10 @@
-# Better WebView for iOS
+# Better WebView module for iOS
 
-Currently only does one thing: it sets scrolling friction to match native ScrollViews.
+Currently only does one thing: it augments the Ti.UI.WebView to set its scrolling friction to match other native ScrollViews.
 
 ## Using the module
 
-Add the module to you project, import it and create new augmented WebViews like this:
+Add the module to you project, import it and create new augmented WebViews according to the examples below. The latest version of the module can be found inside the dist folder.
 
 **Classic example**:
 ```js
